@@ -23,8 +23,8 @@ INSERT INTO employe2(employe_id,name,position,department,hire_date,salary)
 				  (103,'pratham','backend dev','development','2023-01-31',15000.23);
 
 
--- DELETE COMMAND DOR SPECIFIC ROW
+-- DELETE COMMAND FOR SPECIFIC ROW
 
--- DELETE FROM employe2
--- WHERE  department='testing';
+ DELETE FROM employe2
+ WHERE  department='testing';
 
