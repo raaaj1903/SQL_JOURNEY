@@ -31,4 +31,15 @@ FROM import_csv;
 --  >=	        Greater than or equal to
 --  <=	        Less than or equal to
 
+SELECT * FROM import_csv;
+-- SHOW THE NAME OF IMPLOYES WHERE AGE IS 30+
+SELECT first_name FROM import_csv
+WHERE age>30;
 
+-- MATCHES ALL ACEEPT 30
+SELECT first_name FROM import_csv
+WHERE age<>30;
+
+-- WRITE QUERY TO FIND THE NAME OF PEOPLE WHERE AGE IS ABOVE 35+ AND SALARY IS ABOVE 30000
+SELECT first_name FROM import_csv
+WHERE age>35 AND salary>30000;
