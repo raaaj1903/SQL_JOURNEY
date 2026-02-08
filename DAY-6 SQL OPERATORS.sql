@@ -52,3 +52,27 @@ WHERE age>=30 AND salary>=30000 ;
 SELECT first_name,salary FROM import_csv
 WHERE age>30 AND salary<40000;
 
+-- LOGICAL OPERATOR
+-- Operator precedence (important)
+-- NOT is evaluated first
+-- AND is evaluated before OR
+-- Use parentheses () to avoid confusion
+
+-- Operator	Description
+-- AND	       All conditions must be true
+-- OR	       Any one condition must be true
+-- NOT     	Reverses the condition
+
+-- USING AND OPERATOR
+SELECT * FROM import_csv
+WHERE age>=35 AND salary>=50000;
+
+-- USING OR OPERATOR
+SELECT * FROM import_csv
+WHERE age>=35 OR salary<10000;
+
+
+-- USING NOT OPERATOR
+SELECT * FROM import_csv
+WHERE NOT (department='IT')
+
