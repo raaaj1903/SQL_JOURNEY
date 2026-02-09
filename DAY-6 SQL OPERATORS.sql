@@ -80,10 +80,14 @@ WHERE NOT (department='IT')
 
 -- BETWEEN LIKE and IN operator
 
--- RETRIEVE EMPLOYESS WHOSE SALARY IS BETWEEN 40000 AND 60000 BETWEEN OPERATOR
+-- RETRIEVE EMPLOYESS WHOSE SALARY IS BETWEEN 40000 AND 60000 BETWEEN OPERATOR-Purpose:
+-- Used to check whether a value lies within a specific range.
 
 SELECT first_name,last_name,salary
 FROM import_csv
 WHERE salary BETWEEN 40000 AND 60000;
 
+-- ️LIKE Operator
+-- Purpose:
+-- Used to search for a pattern in text (string) values.
 
