@@ -76,3 +76,14 @@ WHERE age>=35 OR salary<10000;
 SELECT * FROM import_csv
 WHERE NOT (department='IT')
 
+
+
+-- BETWEEN LIKE and IN operator
+
+-- RETRIEVE EMPLOYESS WHOSE SALARY IS BETWEEN 40000 AND 60000 BETWEEN OPERATOR
+
+SELECT first_name,last_name,salary
+FROM import_csv
+WHERE salary BETWEEN 40000 AND 60000;
+
+
